@@ -3,7 +3,7 @@ using System.Collections;
 
 public class NumbeWizard : MonoBehaviour
 {
-	int max = 1000;
+	int max = 1001;
 	int min = 1;
 	int guess;
 
@@ -19,7 +19,7 @@ public class NumbeWizard : MonoBehaviour
 		print ("Welcome to Number Wizard!");
 		print ("Pick a number in your head, but don't tell me!");
 
-		print ("The highest number you can pick is " + max + ".");
+		print ("The highest number you can pick is " + (max - 1) + ".");
 		print ("The lowest number you can pick is " + min + ".");
 
 		print ("Is the number higher or lower than " + guess + "?");
